@@ -1,0 +1,44 @@
+Comandos Django
+
+1- criar ambiente virtual
+2- novo projeto (Projeto_SAC)
+3- pip install django
+4- pip freeze (versão 4.2.4)
+5- cd sac
+6- python manage.py startapp App_SAC
+7- python manage.py startapp App_User
+8- python manage.py runserver  (servidor)
+9- na pasta SAC em settings.py va até em language e altere para pt-br e recarregue a página do servidor
+10- em settings ainda em installed adicione App_SAC e App_User
+11- no db browser, abra o banco de dados que esta no SAC
+12-python manage.py migrate (cria tabelas e índices) e depois verificar as tabelas no banco (F5)
+13- cls - limpar a tela
+14-python manage.py createsuperuser
+-> username - julia
+-> email - não precisa
+-> senha - 4522
+!não esquecer senha!
+15-python manage.py runserver - rodar servidor denovo
+com o endereço acrescente /admin depois só colocar seu usuário e senha
+16- adicionar outro usuário e salvar
+username: bryan
+senha: b452233b - vai gerar um algoritmo
+17-ir em urls.py
+->boa prática direcionar as urls do projeto para a do web sac
+duplicar a url e alterar: path('', include('App_SAC.urls'))
+18-em App_SAC criar arq urls.py e copiar do outro arquivo urls e chamar a função
+19- chamando a função que está no arquivo views, depois de importar, ir até views.py
+20- na views irá renderizar uma página html
+21- criar um html file e depois rodar o servidor denovo
+
+
+
+*Hash Code -> código criptografado (só de ida) 
+- quando digitar denovo irá comparar se o código é igual como a senha por exemplo
+ocorre uma transformação do dado (como um arquivo, senha ou informações) 
+em um conjunto alfanumérico com comprimento fixo de caracteres. 
+A função hash criptográfica é utilizada, 
+principalmente, para resumir uma grande quantidade de informações em arquivos.
+
+
+*CTRL + C para parar o seervidor
