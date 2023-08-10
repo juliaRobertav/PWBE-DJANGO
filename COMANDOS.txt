@@ -31,7 +31,8 @@ duplicar a url e alterar: path('', include('App_SAC.urls'))
 20- na views irá renderizar uma página html
 21- criar um html file e depois rodar o servidor denovo
 
-
+ python manage.py makemigrations
+ python manage.py migrate 
 
 *Hash Code -> código criptografado (só de ida) 
 - quando digitar denovo irá comparar se o código é igual como a senha por exemplo
