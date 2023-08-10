@@ -14,7 +14,7 @@ Comandos Django
 12-python manage.py migrate (cria tabelas e índices) e depois verificar as tabelas no banco (F5)
 13- cls - limpar a tela
 14-python manage.py createsuperuser
--> username - julia
+-> username - julia/julinha(Prospect)
 -> email - não precisa
 -> senha - 4522
 !não esquecer senha!
