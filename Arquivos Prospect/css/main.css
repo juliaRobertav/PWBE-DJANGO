@@ -1,0 +1,294 @@
+
+:root{
+    --cor_fundo : rgb(70, 72, 75);
+    --cor_hover : rgb(150, 104, 104);
+    --cor_primaria : rgb(252, 249, 249);
+}
+
+/* body {
+    width: 100%;
+    height: 100%;
+    align-content: center;
+    width: 1600px;
+   
+} */
+
+/* .fundo_menu {
+   
+    background-color: #a4b2c2;
+} */
+
+div.fundo_menu{
+    display: inline-block;
+    width: 1600px;
+    height: 105px;
+    column-count:3;
+    position: relative;
+    background-color: #707275;
+   
+    }
+/* div{
+    display: inline-block;
+    width: 1600px;
+    height: 105px;
+    column-count:3;
+    position: relative;
+    
+   
+    } */
+
+    .nome_sistema{
+       
+        text-align: center;
+        font-size: 30px;
+        font-weight: bold;
+        font-family: arial;
+        color: white;
+        position: absolute;
+        margin: -100px 0px 0 550px;
+        
+    }
+    .botao_login{
+        text-align: center;
+        
+        
+    }
+    
+    .btn{
+        width: 150px;
+        height: 60px;
+        /* alinhamento do botao no Header */
+        position: absolute;
+        margin: 20px 0 0 500px;
+       
+        border: solid 1px gray;
+        background: none;
+        font-size: 30px;
+        font-weight: bold;
+        font: Arial;
+        background-color: rgb(241, 7, 7);
+        color: white;
+        /*Borda arredondada */
+        border-radius: 40px;
+        /*Faz o cursor mudar para maozinha quando posicionado sobre ele */
+        cursor: pointer;
+        
+        
+    }
+    
+     /*hover é acionado quando o cursor estiver sobre o botão. Neste caso faremos um vermelho mais escuro */
+    .btn:hover{
+        background-color: rgb(189, 7, 7);
+        color: rgb(218, 196, 196);
+    }
+    
+    .btn_conf_cancel{
+        width: 150px;
+        height: 40px;
+        border: solid 1px rgb(190, 14, 14);
+        background: none;
+        font-size: 20px;
+        font-weight: bold;
+        font: Arial;
+        background-color: rgb(230, 14, 14);
+        color: white;
+        /*Borda arredondada */
+        border-radius: 40px;
+        /*Faz o cursor mudar para maozinha quando posicionado sobre ele */
+        cursor: pointer;
+        
+        
+    }
+
+
+.menu ul {
+    list-style-type: none;
+    padding: 0;
+    background-color: var(--cor_fundo);
+    font-size: 15px;
+    font-weight: bold;
+    font-family: arial;
+    color: white;
+
+}
+
+.menu ul li {
+    display:inline;
+    position: relative;
+}
+
+.menu ul li a {
+    color: var(--cor_primaria);
+    text-decoration: none;
+    display:inline-block;
+    padding: 10px;
+    transition: background .3s;
+}
+
+.menu ul li a:hover {
+    background-color: var(--cor_hover);
+      
+}
+
+
+/*sub menu*/
+.menu ul ul {
+    display: none;
+    left: 0;
+    position: absolute;
+}
+
+.menu ul li:hover ul {
+    display: block;
+}
+
+.menu ul ul {
+    width: 150px;
+}
+
+.menu ul ul li a {
+    display: block;
+}
+/*Fim sub menu*/
+
+
+
+body{
+    font-family: arial;
+    color:rgb(17, 1, 1)
+    /* display: flex;  */
+    /* justify-content: center; */
+
+   }
+   
+*{
+   margin: 0;
+   padding: 0;
+}
+
+body {
+    /* width: 100%;
+    height: 100%; */
+    align-content: center;
+    width: 1600px;
+    height: 600px;
+   }  
+
+/* Div Principal é para englobar a div container e assim poder centralizar o container  */
+.principal{
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+}
+
+.container{
+ background-color: #fafafa;
+ /* arredonda as bordas  */
+ /* border-radius: 14px; */
+ margin: 14px;
+ max-width: 800px;
+ width: 100%;
+ box-sizing: 0 3px 5px rbga(0,0,0, 0.5);
+
+}
+
+.enquadramento{
+    /* background: linear-gradient(120deg,#3acbf0 0%, #8bb0ff 100%); */
+    background: #a4b2c2;
+    padding: 24px;
+    text-align: center;
+    color: #fff;
+    
+}
+
+.form{
+    /* faz a label e o campo afastar da borda u pouco */
+    padding: 8px;
+    padding-right: 34px;
+}
+
+.form-content{
+    margin-bottom: 8px;
+    padding-bottom: 18px;
+    position: relative;
+}
+.form-content label{
+    display: inline-block;
+    margin-bottom: 4px;
+}
+
+.form-content input{
+    display: block;
+    width: 100%;
+    padding: 8px;
+    border: 2px solid #dfdfdf;
+}
+
+.form-content textarea{
+    display:block;
+    width: 100%;
+    padding: 8px;
+    border: 2px solid #dfdfdf;
+}
+
+/* Mensagem de erro do JS */
+.form-content a{
+    position: absolute;
+    bottom: -8px;
+    left: 0 ;
+    visibility: hidden;
+   }
+ 
+/* Mensagem do Servidor */
+ul.mensagem_do_servidor {
+    background: #7d7f81;
+    padding: 24px;
+    text-align:center;
+    color: #fff;
+}
+
+ul.mensagem_do_servidor li {
+    list-style: none;
+}
+
+   
+
+
+.btn_conf_cancel{
+    width: 150px;
+    height: 40px;
+    border: solid 1px rgb(138, 86, 86);
+    background: none;
+    font-size: 20px;
+    font-weight: bold;
+    font: Arial;
+    background-color: rgb(241, 7, 7);
+    color: white;
+    /*Borda arredondada */
+    border-radius: 40px;
+    /*Faz o cursor mudar para maozinha quando posicionado sobre ele */
+    cursor: pointer;
+    
+}
+
+.botoes {
+    display: flex; 
+    justify-content: center;
+    padding: 20px;
+    /* Espaço entre os botoes */
+    gap: 3rem;
+
+}
+
+div.rodape1 {
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: arial;
+    color: rgb(256, 256, 256);
+    display: flex;
+    width: 1600px;
+    padding: 25px;
+    justify-content: center;
+}
+
