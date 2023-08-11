@@ -41,5 +41,7 @@ em um conjunto alfanumérico com comprimento fixo de caracteres.
 A função hash criptográfica é utilizada, 
 principalmente, para resumir uma grande quantidade de informações em arquivos.
 
+ju
+452233
 
 *CTRL + C para parar o seervidor
