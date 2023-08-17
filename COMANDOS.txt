@@ -1,7 +1,7 @@
 Comandos Django
 
 1- criar ambiente virtual
-2- novo projeto (Projeto_SAC)
+2- novo projeto (Projeto_SAC) - django-admin startproject Prospect
 3- pip install django
 4- pip freeze (versão 4.2.4)
 5- cd sac
