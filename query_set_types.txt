@@ -1,0 +1,11 @@
+#query set Tipos de Look Up
+
+# nome__exact='SS' - tem que ser exatamente igual
+# nome__contains='H' - contem o H maiusculo
+# nome__icontains='H' - ignora se maiúsculo ou minúsculo
+# nome__startswith='M' - traz o que começa com a letra M ou sequencia de letras
+# nome__istartswith='M' - traz o que começa com a letra M ignorando se maiusculo ou minusculo u sequencia de letras
+# nome__endswith='a' - traz o que termina com a letra a minusculo ou sequencia de letras
+# nome__iendswith='a' - traz o que termina com a letra a ignorando maiúsculo ou minusculo
+# nome__in=['Michael', 'Obama']) traz somente os nome que estão na lista
+# Pode ser feito uma composição 'and' utilizando , (virgula entre os campos) ou 'or' utilizando | (pipe entre os campos)
