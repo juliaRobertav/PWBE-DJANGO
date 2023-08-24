@@ -1,0 +1,12 @@
+BackEnd
+
+https://github.com/arthurspk/guiadobackend#readme
+
+https://dev.to/glaucia86/guia-para-pessoas-desenvolvedoras-back-end-2021-o-que-eu-preciso-saber-10c6
+
+https://trilha.info/roadmap/backend
+
+
+DevOps
+
+https://awari.com.br/guia-devops/
