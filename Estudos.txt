@@ -1,5 +1,12 @@
+Paginação:
+
 https://horadecodar.com.br/adicionando-paginacao-no-django/
 
 https://youtu.be/GVZhI-4SOFI?si=ikAfr9f3OAXF6r-R
 
 https://django-portuguese.readthedocs.io/en/1.0/topics/pagination.html
+
+
+Login:
+
+https://learndjango.com/tutorials/django-login-and-logout-tutorial
