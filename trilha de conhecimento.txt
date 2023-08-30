@@ -7,6 +7,29 @@ https://dev.to/glaucia86/guia-para-pessoas-desenvolvedoras-back-end-2021-o-que-e
 https://trilha.info/roadmap/backend
 
 
+Ideias para portifolio backend:
+
+
+https://www.brasilcode.com.br/20-ideias-de-projetos-para-desenvolvedores/
+
+
+https://www.treinaweb.com.br/blog/ideias-de-projetos-para-praticar-back-end
+
+
+https://awari.com.br/10-projetos-de-backend-para-turbinar-o-seu-portfolio/
+
+
+
+https://awari.com.br/portfolio-de-desenvolvedor-back-end-portfolios-e-projetos-de-desenvolvedores-back-end/
+
+
+https://www.devmedia.com.br/como-criar-um-portfolio-de-programador/43262
+
+
+https://www.freecodecamp.org/portuguese/news/5-projetos-de-programacao-que-voce-deve-incluir-em-seu-portfolio-de-front-end/  (front)
+
+
+
 DevOps
 
 https://awari.com.br/guia-devops/
