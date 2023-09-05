@@ -48,3 +48,5 @@ ju
 452233
 
 *CTRL + C para parar o seervidor
+
+!!!! Não esquecer de add Cliente e Atendente no admin.py
