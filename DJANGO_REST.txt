@@ -1,0 +1,15 @@
+API -> DJANGO
+
+1- pip install djangorestframework
+
+2- SAC - settings.py - instaled_apps -> 'rest_framework'
+
+3- App_SAC - nova pasta api - novos arquivos - serializers/viewsets .py
+
+4- SAC/urls.py - adicionar rotas
+
+
+**fetch pesquisar
+
+https://cursos.alura.com.br/forum/topico-consumindo-api-django-rest-com-javascript-142297
+
