@@ -8,6 +8,8 @@ API -> DJANGO
 
 4- SAC/urls.py - adicionar rotas
 
+5- pip install django-filter
+
 
 **fetch pesquisar
 
