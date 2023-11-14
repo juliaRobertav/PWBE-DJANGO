@@ -2,6 +2,8 @@
 
 {% embed url="https://horadecodar.com.br/python/django/" %}
 
+{% embed url="https://medium.com/lica-ufal/autentica%C3%A7%C3%A3o-no-react-85cb99ec0295" %}
+
 {% embed url="https://docs.djangoproject.com/pt-br/4.2/" %}
 
 {% embed url="https://django-portuguese.readthedocs.io/en/1.0/intro/tutorial01.html" %}
