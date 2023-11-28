@@ -1,5 +1,11 @@
 # DICAS
 
+**Extensão** recomendada: _SQLite Viewer_, com ela é possível analisar e alterar suas tabelas do banco de dados diretamente do VsCode...
+
+{% embed url="https://dev.to/jhonywalkeer/sqlite-acessando-seu-banco-diretamente-do-vscode-4dim" %}
+
+<figure><img src=".gitbook/assets/image.png" alt="" width="563"><figcaption></figcaption></figure>
+
 {% embed url="https://horadecodar.com.br/python/django/" %}
 
 {% embed url="https://medium.com/lica-ufal/autentica%C3%A7%C3%A3o-no-react-85cb99ec0295" %}
