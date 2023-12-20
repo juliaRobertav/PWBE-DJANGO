@@ -4,7 +4,7 @@
 
 {% embed url="https://dev.to/jhonywalkeer/sqlite-acessando-seu-banco-diretamente-do-vscode-4dim" %}
 
-<figure><img src=".gitbook/assets/image.png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (3).png" alt="" width="563"><figcaption></figcaption></figure>
 
 {% embed url="https://horadecodar.com.br/python/django/" %}
 
